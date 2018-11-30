@@ -75,3 +75,10 @@ ArenaShooter/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 ArenaShooter/DerivedDataCache/*
+
+# Very Large UE4Library or Vault Content (Landscape) CURRENTLY UNUSED
+ArenaShooter/Content/ParagonProps/*
+ArenaShooter/Content/KiteDemo/*
+ArenaShooter/Content/SampleMap/*
+ArenaShooter/Content/Lighting/*
+ArenaShooter/Content/Geometry/*
