@@ -25,37 +25,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	//Initial Character Stats / Properties
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
-	float Health;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stats")
-	float Damage;
-
-	UPROPERTY(EditAnywhere, Category = "Stats")
-	float MoveSpeed;
-
-	UPROPERTY(EditAnywhere, Category = "Stats")
-	float Accel;
-
-	UPROPERTY(EditAnywhere, Category = "Stats")
-	float Energy; // Mana?
-
-	//MAX STATS
-	UPROPERTY(EditAnywhere, Category = "Max Stats")
-	float MaxHealth = 100;
-
-	UPROPERTY(EditAnywhere, Category = "Max Stats")
-	float MaxDamage = 25;
-
-	UPROPERTY(EditAnywhere, Category = "Max Stats")
-	float BaseMoveSpeed = 650;
-	
-	UPROPERTY(EditAnywhere, Category = "Max Stats")
-	float BaseAccel = 2048;
-
-	UPROPERTY(EditAnywhere, Category = "Max Stats")
-	float MaxEnergy = 100;
 	
 };

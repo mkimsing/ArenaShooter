@@ -9,13 +9,6 @@ ATB_Character::ATB_Character()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	Health = MaxHealth;
-	Damage = MaxDamage;
-	Energy = MaxEnergy;
-
-	MoveSpeed = BaseMoveSpeed;
-	Accel = BaseAccel;
-
 }
 
 // Called when the game starts or when spawned
@@ -30,9 +23,6 @@ void ATB_Character::BeginPlay()
 void ATB_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	GetCharacterMovement()->MaxWalkSpeed = MoveSpeed;
-	GetCharacterMovement()->MaxAcceleration = Accel;
 
 }
 
